@@ -126,23 +126,23 @@ input[type=submit]:hover {
 }
 
 .wrapper{
-
-    background-color: #f2f2f2;
-    height: 500px;
-    width: 920px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);background-color: #f2f2f2;
+    height: auto;
+    width:100%;
+    max-width: 920px;
     padding-top: 10px;
     border-radius: 4px; 
 }
 
 .background{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
+
     margin:0px;
-    background-color:blue;
+    background-color:#ffffff;
     width:100%;
-    max-width: 960px;
+    max-width: 920px;
     padding: 20px;
     padding-top: 10px;
 }
